@@ -69,7 +69,7 @@ const requestedPostId = req.params.postId;
 });
 
 app.get("/about", function(req, res){
-  res.render("about", {aboutContent: aboutContent});
+  res.render("about", {aboutcontent: aboutContent});
 });
 
 app.get("/contact", function(req, res){
